@@ -1,0 +1,416 @@
+ /* RESET      */
+ * {
+     margin: 0;
+     padding: 0;
+     border: 0;
+     box-sizing: border-box;
+ }
+
+
+ /*Elementos base */
+
+ body {
+     background: #141414;
+     font-family: 'Arial', Times, serif;
+     color: white;
+     min-height: 50vh;
+     min-width: 50vw;
+
+ }
+
+
+
+ header .container {
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     justify-content: space-between;
+
+
+ }
+
+ header .logo {
+
+     font-family: 'Times New Roman', serif;
+     letter-spacing: 5px;
+     font-size: 100px;
+     font-weight: bold;
+     background-image: linear-gradient(to right,
+             #462523 0,
+             #cb9b51 22%,
+             #f6e27a 45%,
+             #f6f2c0 50%,
+             #f6e27a 55%,
+             #cb9b51 78%,
+             #462523 100%);
+     color: transparent;
+     -webkit-background-clip: text;
+
+
+
+     margin-left: 5px;
+
+
+ }
+
+ header .logo:hover {
+     color: #cb9b51;
+
+ }
+
+ .login {
+     font-weight: bold;
+     background-image: linear-gradient(to right,
+             #462523 0,
+             #cb9b51 22%,
+             #f6e27a 45%,
+             #f6f2c0 50%,
+             #f6e27a 55%,
+             #cb9b51 78%,
+             #462523 100%);
+     color: transparent;
+     -webkit-background-clip: text;
+
+
+
+     font-size: 25px;
+
+ }
+
+ header nav a {
+     text-decoration: none;
+     color: #AAA;
+     margin-right: 10px;
+ }
+
+ header nav a:hover {
+     color: #fff;
+
+ }
+
+ /*   Rodapé   */
+
+ footer {
+     font-family: "Open Sans";
+     background: #141414;
+     height: auto;
+     width: 100vw;
+     padding-top: 40px;
+     color: #141414;
+
+ }
+
+ .footer-container {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-direction: column;
+     text-align: center;
+
+ }
+
+ .footer-container h3 {
+     font-size: 45px;
+     font-weight: 400;
+     text-transform: capitalize;
+     line-height: 3rem;
+     background-image: linear-gradient(to right,
+             #462523 0,
+             #cb9b51 22%,
+             #f6e27a 45%,
+             #f6f2c0 50%,
+             #f6e27a 55%,
+             #cb9b51 78%,
+             #462523 100%);
+     color: transparent;
+     -webkit-background-clip: text;
+ }
+
+ .footer-container p {
+     max-width: 500px;
+     margin: 10px auto;
+     line-height: 28px;
+     font-size: 20px;
+     background-image: linear-gradient(to right,
+             #462523 0,
+             #cb9b51 22%,
+             #f6e27a 45%,
+             #f6f2c0 50%,
+             #f6e27a 55%,
+             #cb9b51 78%,
+             #462523 100%);
+     color: transparent;
+     -webkit-background-clip: text;
+ }
+
+ .social {
+     list-style: none;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     margin: 1rem 0 3rem 0;
+
+ }
+
+ .social li {
+     margin: 0 10px;
+ }
+
+ .social a {
+     text-decoration: none;
+     color: #fff;
+ }
+
+ .social a i {
+     font-size: 1.1rem;
+     transition: color .3s ease;
+ }
+
+ .social a:hover i {
+     background-image: linear-gradient(to right,
+             #462523 0,
+             #cb9b51 22%,
+             #f6e27a 45%,
+             #f6f2c0 50%,
+             #f6e27a 55%,
+             #cb9b51 78%,
+             #462523 100%);
+     color: transparent;
+     -webkit-background-clip: text;
+ }
+
+ .footer-bottom {
+     background: #141414;
+     width: 100vw;
+     padding: 20px 0;
+     text-align: center;
+ }
+
+ .footer-bottom p {
+     font-size: 14px;
+     word-spacing: 2px;
+     text-transform: capitalize;
+     background-image: linear-gradient(to right,
+             #462523 0,
+             #cb9b51 22%,
+             #f6e27a 45%,
+             #f6f2c0 50%,
+             #f6e27a 55%,
+             #cb9b51 78%,
+             #462523 100%);
+     color: transparent;
+     -webkit-background-clip: text;
+ }
+
+ .footer-bottom span {
+     text-transform: uppercase;
+     font-size: 20px;
+     font-weight: 200;
+     background-image: linear-gradient(to right,
+             #462523 0,
+             #cb9b51 22%,
+             #f6e27a 45%,
+             #f6f2c0 50%,
+             #f6e27a 55%,
+             #cb9b51 78%,
+             #462523 100%);
+     color: transparent;
+     -webkit-background-clip: text;
+ }
+
+ .contato {
+     font-weight: bold;
+     background-image: linear-gradient(to right,
+             #462523 0,
+             #cb9b51 22%,
+             #f6e27a 45%,
+             #f6f2c0 50%,
+             #f6e27a 55%,
+             #cb9b51 78%,
+             #462523 100%);
+     color: transparent;
+     -webkit-background-clip: text;
+     font-size: 25px;
+ }
+
+ .contato:hover {
+     color: white;
+     transition: color .3s ease
+ }
+
+
+ /*     CONTATO     */
+
+ /* Elementos com o ID "titulo" */
+#titulo {
+    font-family: sans-serif;
+    background-image: linear-gradient(to right,
+             #462523 0,
+             #cb9b51 22%,
+             #f6e27a 45%,
+             #f6f2c0 50%,
+             #f6e27a 55%,
+             #cb9b51 78%,
+             #462523 100%);
+     color: transparent;
+     -webkit-background-clip: text;
+    margin-left: 17%;
+} 
+
+/* Elementos com o ID "subtitulo" */
+#subtitulo {
+    font-family: sans-serif;
+    background-image: linear-gradient(to right,
+             #462523 0,
+             #cb9b51 22%,
+             #f6e27a 45%,
+             #f6f2c0 50%,
+             #f6e27a 55%,
+             #cb9b51 78%,
+             #462523 100%);
+     color: transparent;
+     -webkit-background-clip: text;
+    margin-left: 6%;
+} 
+
+#check{
+    display: inline-block;
+}
+
+/* Elementos de tag <fieldset>*/
+fieldset {
+    border: 0;
+}
+
+/* Elemento de tag <body> */
+.body-contato{
+    background-color: #141414;
+    font-family: sans-serif;
+    font-size: 1em;
+    background-image: linear-gradient(to right,
+             #462523 0,
+             #cb9b51 22%,
+             #f6e27a 45%,
+             #f6f2c0 50%,
+             #f6e27a 55%,
+             #cb9b51 78%,
+             #462523 100%);
+     color: transparent;
+     -webkit-background-clip: text;
+    margin-left: 36%;
+    margin-right: 20%;
+    margin-top: 2%;
+    justify-content: center;
+    padding-top: 75px;
+    padding-bottom: 150px;
+}
+
+/* Elementos de tags <body>, <input>, <Select>, <textarea> e <button> */
+input,  textarea, button {
+    font-family: sans-serif;
+    font-size: 1em;
+    background-image: linear-gradient(to right,
+             #462523 0,
+             #cb9b51 22%,
+             #f6e27a 45%,
+             #f6f2c0 50%,
+             #f6e27a 55%,
+             #cb9b51 78%,
+             #462523 100%);
+     
+     
+    border-radius: 5px;
+}
+
+/* Elementos de classe "grupo" nos estados das pseudoclasses "before" e "after" */
+.grupo:before, .grupo:after {
+    display: table;
+}
+
+/* Elementos de classe "grupo" no estado da pseudoclasse "after" */
+.grupo:after {
+    clear: both;
+}
+
+/* Elementos de classe "campo" */
+.campo {
+    margin-bottom: 1em;
+}
+
+/* Elementos de classe "campo" de tag <label> */
+.campo label {
+    margin-bottom: 0.2em;
+    background-image: linear-gradient(to right,
+             #462523 0,
+             #cb9b51 22%,
+             #f6e27a 45%,
+             #f6f2c0 50%,
+             #f6e27a 55%,
+             #cb9b51 78%,
+             #462523 100%);
+     color: transparent;
+     -webkit-background-clip: text;
+    display: block;
+}
+
+/* Elementos de classe "campo" ou "grupo" de tag <fieldset> */
+fieldset.grupo .campo {
+    float:  left;
+    margin-right: 1em;
+}
+
+/* Elementos de classe "campo" das tags <input> com atributo text e email, da tag <select> e da tag <textarea>*/
+.campo input[type="text"], .campo input[type="email"], .campo select, .campo textarea {
+    padding: 0.2em;
+    border: 1px solid white;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    display: block;
+}
+
+/* Elementos de classe "campo" de tag <select> e <option>*/
+.campo select option {
+    padding-right: 1em;
+}
+
+/* Elemento de classe "campo" com tag <input>, <select> e <textarea> tocas com estado da pseudoclasse "focus"*/
+.campo input:focus, .campo select:focus, .campo textarea:focus {
+    background: #E0E0F8;
+}
+
+/* Elemento de classe "botao" */
+.botao {
+    font-size: 1.2em;
+    background-image: linear-gradient(to right,
+    #462523 0,
+    #cb9b51 22%,
+    #f6e27a 45%,
+    #f6f2c0 50%,
+    #f6e27a 55%,
+    #cb9b51 78%,
+    #462523 100%);
+color: transparent;
+
+    border: 0;
+    margin-bottom: 1em;
+    color: #141414;
+    padding: 0.2em 0.6em;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+    position: absolute;
+    top: 80%;
+    left: 47%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+/* Elemento de classe "botao" com o estado da pseudoclasse "hover" */
+.botao:hover {
+    background: #f6e27a;
+    box-shadow: inset 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: none;
+}
+
+/* Elementos de classe botão e de tag <select> */
+.botao, select{
+    cursor: pointer;
+}
